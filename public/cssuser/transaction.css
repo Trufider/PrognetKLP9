@@ -1,0 +1,353 @@
+html, body {
+    background-color: #0A7E8C;
+    padding:0px;
+    margin: 0px;
+    color: white;
+    transition: opacity .3s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #c4c4c4; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+.container {
+    position: relative;
+    top: 0px;
+    left: 50%;
+    width: 1520px;
+    height: fit-content;
+    transform: translateX(-50%);
+}
+
+.footer {
+    position: relative;
+    top: 280px;
+    margin-top:100px;
+    width:100%;
+    height: 200px;
+    overflow: hidden;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+
+.spanduk {
+    position: relative;
+    box-sizing: border-box;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    height: fit-content;
+    text-align: center;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#ba{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    opacity: .5;
+    user-select: none;
+}
+
+h6 {
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 10px;
+}
+
+.mainbox {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1200px;
+    height: 400px;
+    margin-top: 30px;
+    /* background-color: red; */
+}
+
+.peringatan {
+    position: relative;
+    width: 50%;
+    height: 70px;
+    background-color: rgb(205,133,63);
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+
+.history {
+    position: absolute;
+    top: 135px;
+    right: 140px;
+    background-color: rgb(205,133,63);
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.mastertransaksi {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100px;
+    width: 600px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: red;
+    transition: .3s;
+}
+
+.transaksi {
+    position: relative;
+    width: 100%;
+    margin-top: 10px;
+    height: 100px;
+    border-radius:15px;
+    padding :0px 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow:hidden;
+}
+
+.transaksi .box {
+    padding:10px 0px;
+    height: 50px;
+    box-sizing: border-box;
+    margin: 0px 10px;
+    border-bottom : 1px solid white;
+    overflow:hidden;
+}
+
+.itemlist {
+    position: relative;
+    margin-top: 0px;
+    left: 0px;
+    width: 96.5%;
+    height: 225px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    overflow-y: scroll;
+    border-radius: 15px;
+}
+
+.itemlist::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+.itemlist .item {
+    position: relative;
+    margin-left: 0px;
+    width: 550px;
+    height: 100px;
+    background-color: red;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.item img{
+    position: relative;
+    left: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+.item label{
+    position: absolute;
+    left: 110px;
+}
+
+#labellist{
+    position: relative;
+    font-size: 15pt;
+}
+
+button {
+    position: relative;
+    width: 100px;
+    height: 20px;
+    margin-top:2px;
+    background-color: #0A7E8C;
+    outline: none;
+    color: cornsilk;
+    border:1px solid chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: .4s;
+    z-index: 1;
+}
+
+.block {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    height: 300%;
+    background-color: white;
+    opacity: .6;
+    z-index: 1;
+    display: none;
+}
+
+.paneltransfer {
+    position: fixed;
+    top: -500px;
+    left:50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 430px;
+    background-color: rgb(205,133,63);
+    border-radius: 15px;
+    z-index: 2;
+    transition: top .3s;
+    overflow: hidden;
+}
+
+.proof {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 30px;
+    width: 620px;
+    border-radius: 15px;
+    height: 300px;
+    border: 2px solid white;
+    overflow:hidden;
+}
+
+.proof img{
+    position: relative;
+    max-width: 620px;
+    max-height: 300px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.up {
+    position: relative;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 620px;
+    border-radius: 15px ;
+    height: 40px;
+}
+
+#cancel {
+    position: absolute;
+    top: -7px;
+    right: 10px;
+    border-radius: 6px;
+    width: 30px;
+    height: 25px;
+    background-color: #802323;
+}
+
+.tanggapan {
+    position: absolute;
+    top: 70px;
+    right: 10px;
+    width: 100px;
+    height: 100px;
+}
+
+.comment {
+    position : relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20pt;
+    text-align: center;
+    border-bottom: 1px solid white;
+}
+
+.commentbox {
+    position: absolute;
+    top: 70px;
+    width: 578px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.bubble {
+    position: relative;
+    width: 80%;
+    left:100px;
+    margin-top: 10px;
+    height: 120px;
+    background-color: #0A7E8C;
+    border-radius : 15px;
+    box-sizing: border-box;
+}
+
+.bubble img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 10px;
+    top:13px;
+}
+
+.bubble label{
+    position :absolute;
+    left: 100px;
+    top: 2px;
+}
+
+.bubble .content {
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    bottom: 5px;
+    left: 100px;
+    word-wrap: break-word;
+}
+
+.bubble2 {
+    position: relative;
+    width: 80%;
+    margin-top: 10px;
+    height: 120px;
+    background-color: #0A7E8C;
+    border-radius : 15px;
+    box-sizing: border-box;
+    padding:10px;
+    box-sizing: border-box;
+}
+

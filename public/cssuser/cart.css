@@ -1,0 +1,194 @@
+html, body {
+    background-color: #0A7E8C;
+    padding:0px;
+    margin: 0px;
+    color: white;
+    transition: opacity .3s;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #c4c4c4; 
+}
+   
+  /* Handle */
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+  
+  /* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+
+
+.container {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 1520px;
+    height: fit-content;
+    transform: translateX(-50%);
+}
+
+.footer {
+    position: relative;
+    bottom: -10px;
+    margin-top:300px;
+    width:100%;
+    height: 200px;
+    overflow: hidden;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+}
+
+.spanduk {
+    position: relative;
+    box-sizing: border-box;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    height: fit-content;
+    text-align: center;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    letter-spacing: 2px;
+    font-size: 20px;
+    overflow: hidden;
+}
+
+#ba{
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    opacity: .5;
+}
+
+h6 {
+    position: absolute;
+    top: -20px;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 10px;
+}
+
+.itemlist {
+    position: relative;
+    display: flex;
+    padding-top: 30px;
+    flex-wrap: wrap;
+    top: 0px;
+    left: 150px;
+    width: 700px;
+    height: fit-content;
+    box-sizing: border-box;
+}
+
+.item {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 120px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.item img {
+    position: relative;
+    top: 7px;
+    left: -270px;
+    width: 100px;
+    height: 100px;
+}
+
+.item .desc {
+    position: relative;
+    text-align: left;
+    width: 200px;
+    top: -100px;
+    left: 150px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    position: absolute;
+    top: 70px;
+    right: 150px;
+    width: 100px;
+    height: 30px;
+    background-color: #0A7E8C;
+    outline: none;
+    color: cornsilk;
+    border:1px solid chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    cursor: pointer;
+    transition: .4s;
+    z-index: 1;
+}
+
+button:active {
+    background-color: gold;
+    box-shadow: 0px 0px 20px 2px gold;
+    color: #0A7E8C;
+}
+
+.checkoutpanel {
+    position: absolute;
+    right: 120px;
+    top: 140px;
+    width: 500px;
+    height: 190px;
+    background-color: rgb(205,133,63);;
+    box-sizing: border-box;
+    border-radius: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.checkoutpanel h1 {
+    position: relative;
+    font-size: 15pt;
+    letter-spacing: 2px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.total {
+    position: relative;
+    height: 50px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.totalfont {
+    flex-grow: 1;
+    margin-right: 10px;
+    text-align: left;
+    font-size: 15pt;
+}
+
+.totalnumber {
+    flex-grow:.7;
+    text-align: right;
+    font-size: 20pt;
+}
+
+#checkbutton {
+    position: absolute;
+    width: 200px;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
+}

@@ -1,0 +1,157 @@
+html, body {
+    background-color: #393939;
+    padding:0px;
+    margin: 0px;
+    color:#D1D1D1;
+    transition: opacity .3s;
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    height: 100%;
+    width: 1400px;
+    transform: translateX(-50%);
+
+}
+
+.redbox{
+    position: absolute;
+    top: 40px;
+    left: 0px;
+    height: 50px;
+    width: 80px;
+    background-color: #D84A4E;
+}
+
+.redbox img{
+    position: absolute;
+    top: 3px;
+    width: 40px;
+    height: 40px;
+    align-content: center;
+    left: 20px;
+}
+
+#signature {
+    position: absolute;
+    top: 100px;
+    width: 280px;
+    height: 500px;
+    right: 305px;
+    box-shadow: 7px 20px 20px black;
+    opacity: 0;
+    transition: 2.2s;
+}
+
+
+
+.loginbox{
+    position: absolute;
+    padding: 10px;
+    box-sizing: border-box;
+    left: 200px;
+    top: 200px;
+    opacity: .1;
+    width: 400px;
+    height: 600px;
+    transition: 1s;
+}
+
+.loginbox h1{
+    position: absolute;
+    left: 53%;
+    top: 70px;
+    transform: translateX(-50%);
+    font-size: 15pt;
+    font-weight: 900;
+}
+
+.loginbox input{
+    position: absolute;
+    left: 50%;
+    top: 200px;
+    transform: translateX(-50%);
+    font-size: 20pt;
+    color: white;
+    width: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 40px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.loginbox label{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+}
+
+input:focus, select:focus, button:focus{
+    outline: none;
+}
+
+#kardus {
+    position: absolute;
+    right: 300px;
+    top: 300px;
+    width: 300px;
+}
+
+.lingkaran {
+    position: absolute;
+    top: 420px;
+    right: 280px;
+    height: 250px;
+    width: 350px;
+    background-color: black;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: .1;
+    transform: rotate(-10deg);
+}
+
+h2  {
+    position: absolute;
+    top: 300px;
+    right: 300px;
+    letter-spacing: 30px;
+    transition: 1s;
+    opacity: 0;
+}
+
+#title {
+    position: absolute;
+    top: 320px;
+    transform: translateX(-50%);
+    right: 5px;
+    font-size: 30pt;
+    letter-spacing: 150px;
+    opacity: .1;
+    transition: 1s;
+}
+
+#edit {
+    color: #D84A4E;
+}
+
+.warning{
+    position: absolute;
+    left: 50%;
+    opacity: .8;
+    padding-top :2px ;
+    box-sizing: border-box;
+    width: 100%;
+    height: 25px;
+    color: #D84A4E;
+    text-align: center;
+    font-size: 13pt;
+    letter-spacing: 4px;
+    font-weight: bold;
+    transform: translateX(-50%);
+    bottom:190px;
+}

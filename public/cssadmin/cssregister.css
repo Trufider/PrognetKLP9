@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(233, 231, 231);
+    padding: 0px;
+}
+
+.container {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 1300px;
+    height: 100%;
+    transform: translateX(-50%);
+    box-shadow: 0px 0px 100px black;
+}
+
+input{
+    position: absolute;
+    left: 50%;
+    top: 300px;
+    transform: translateX(-50%);
+    height: 30px;
+    width: 400px;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 20pt;
+    text-align: center;
+}
+label{
+    position: absolute;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    left: 50%;
+    top: 250px;
+    transform: translateX(-50%);
+    font-size: 20pt;
+}
